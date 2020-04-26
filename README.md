@@ -4,7 +4,7 @@
 remote server container with dotnet-sdk-3.1 preinstalled and omnisharp extension added, accessible through the browser.
 
 This image is based on codercom/code-server image from project [cdr/code-server](https://github.com/cdr/code-server).
-
+[coder.com](https://coder.com)
 
 
 ### Runnig the image
@@ -20,4 +20,5 @@ docker run -it -p 127.0.0.1:8080:8080 -v "$PWD:/home/coder/project" -u "$(id -u)
   compilations, downloads, and more. Preserve battery life when you're on the go
   since all intensive computation runs on your server.
 
-![Example gif](/doc/assets/code-server.gif)
+![Example gif](https://raw.githubusercontent.com/cdr/code-server/master/doc/assets/code-server.gif)
+
